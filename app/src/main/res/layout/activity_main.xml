@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/view1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_width="100dp"
+        android:text="width 100dp"
+        android:textSize="15sp"
+        android:gravity="center"
+        android:textColor="#FF0000"
+        android:background="#000000"
+        android:layout_height="20dp"/>
+
+    <TextView
+        android:id="@+id/view2"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view1"
+        android:layout_width="200dp"
+        android:text="width 200dp"
+        android:textSize="15sp"
+        android:gravity="center"
+        android:textColor="#FF0000"
+        android:background="#000000"
+        android:layout_height="20dp"/>
+
+
+    <TextView
+        android:id="@+id/view3"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view2"
+        android:layout_width="383dp"
+        android:text="width 383dp"
+        android:textSize="15sp"
+        android:gravity="center"
+        android:textColor="#FF0000"
+        android:background="#000000"
+        android:layout_height="20dp"/>
+
+    <TextView
+        android:id="@+id/view4"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view3"
+        android:layout_width="384dp"
+        android:text="width 384dp"
+        android:textSize="15sp"
+        android:gravity="center"
+        android:textColor="#FF0000"
+        android:background="#000000"
+        android:layout_height="20dp"/>
+
+    <TextView
+        android:id="@+id/view5"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view4"
+        android:layout_width="385dp"
+        android:text="width 385dp"
+        android:textSize="15sp"
+        android:gravity="center"
+        android:textColor="#FF0000"
+        android:background="#000000"
+        android:layout_height="20dp"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
